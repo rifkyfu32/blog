@@ -5,7 +5,7 @@ title = "Rifky Fuady"
 theme = "fuad"
 
 #googleAnalytics = "UA-54154424-1"
-disqusShortname = "rifkyfuady"
+disqusShortname = "rifkyfu32-github-io"
 
 [permalinks]
   post = "/blog/:slug/"
