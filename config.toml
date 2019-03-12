@@ -1,0 +1,19 @@
+baseurl = "https://rifkyfu32.github.io"
+languageCode = "id-id"
+defaultContentLanguage = "id"
+title = "Rifky Fuady"
+theme = "fuad"
+
+#googleAnalytics = "UA-54154424-1"
+disqusShortname = "rifkyfuady"
+
+[permalinks]
+  post = "/blog/:slug/"
+  page = "/:slug/"
+
+[params]
+  # Site Author
+  author = "Fuad"
+
+  # Description/subtitle for homepage
+  description = "Hello, saya Fuad. Blog ini belum jadi. Sabar ya..."

@@ -1,0 +1,36 @@
+<title>{{ .Title }}</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<!-- SEO TAG -->
+{{ template "_internal/schema.html" . }}
+{{ template "_internal/google_news.html" . }}
+{{ template "_internal/opengraph.html" . }}
+<meta content='summary_large_image' name='twitter:card' />
+<meta content='@Fuu_ady' name='twitter:site' />
+<meta content='@Fuu_ady' name='twitter:creator' />
+<meta property='og:image' content='{{ .Site.BaseURL }}{{ .Params.Image }}'
+/>
+<meta content='id_ID' property='og:locale' />
+<meta content='ms_MY' property='og:locale:alternate' />
+<meta content='en_US' property='og:locale:alternate' />
+
+<meta content='rifky.fuady2' property='fb:profile_id' />
+
+<meta property="article:author" content="https://web.facebook.com/rifky.fuady2" />
+
+<!-- /SEO TAG -->
+
+<link rel="icon" href="/img/favicon.png" />
+
+<link rel="stylesheet" href="/css/bootstrap.min.css" />
+<link rel="stylesheet" href="/css/prism.css" />
+<link rel="stylesheet" href="/css/style.css" />
+
+
+{{ if not .Site.IsServer }}
+<link href='https://fonts.googleapis.com/css?family=Merriweather:400,700' rel='stylesheet' type='text/css'> 
+{{ template "_internal/google_analytics.html" . }}
+{{ end }}
