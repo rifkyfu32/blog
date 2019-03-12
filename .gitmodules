@@ -1,4 +1,0 @@
-[submodule "public"]
-	path = public
-	url = git@github.com:rifkyfu32/rifkyfu32.github.io.git
-	branch = master
