@@ -4,7 +4,7 @@ defaultContentLanguage = "id"
 title = "Rifky Fuady"
 theme = "fuad"
 
-#googleAnalytics = "UA-54154424-1"
+googleAnalytics = "UA-136111907-1"
 disqusShortname = "rifkyfu32-github-io"
 
 [permalinks]
